@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #54bc6e;
+}
+.clearfix { 
+    clear: both; 
+} 
+
+.pay_head .banner {
+    width: 100%;
+    display: block;
+}
+.pay-content {
+	width: 100%;
+}
+.pay-imgbox {
+	width: 90%;
+	margin: 15% auto 0;
+}
+.pay-qrcode-img{
+	float: left;
+	width: 51%;
+}
+.pay-codeimg{
+	float: right;
+	width: 49%;
+}
+.pay-qrcode-img canvas{
+	width: 100% !important;
+}
+
+/*.pay-name {
+	font-size: 15px;
+	text-align: center;
+	margin: 15px 0 5px 0;
+	color: #FFFFFF;
+}
+
+.pay-tips {
+	text-align: center;
+	color: #FFFFFF;
+}*/
+
+.pay-name {
+    font-size: 16px;
+    padding-top: 9.375%;
+    text-align: center;
+    color: #fff;
+}
+
+.pay-tips {
+    font-size: 24px;
+    padding-top: 3.375%;
+    text-align: center;
+    color: #fff;
+}
